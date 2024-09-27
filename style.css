@@ -1,10 +1,56 @@
 body {
     margin: 0;
-    height: 100vh; /* Altura total da viewport */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #a7d3e0, #ffffff); /* Degradê de azul claro para branco */
+    color: #333; /* Texto em um tom de cinza escuro para melhor legibilidade */
+}
+
+.image-background {
     background-image: url('robo3.png'); /* Usando a imagem local */
-    background-size: cover; /* Para cobrir todo o elemento */
-    background-position: center; /* Para centralizar a imagem */
+    background-size: contain; /* Ajusta a imagem para caber na div */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center top; /* Centraliza a imagem na parte superior */
+    height: 300px; /* Altura da imagem */
+    width: 100%; /* Ocupa toda a largura */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #004d5f; /* Um tom escuro de azul para o título */
+    font-size: 2.5em; /* Tamanho maior para o título */
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.2s; /* Efeito suave ao passar o mouse */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Eleva o cartão ao passar o mouse */
+}
+
+h2 {
+    color: #00bcd4; /* Cor ciano para os títulos */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+p {
+    line-height: 1.6; /* Melhor espaçamento entre linhas */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #004d5f; /* Cor de fundo para o rodapé */
+    color: white; /* Texto em branco no rodapé */
 }
