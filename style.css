@@ -6,7 +6,7 @@ body {
 }
 
 .image-background {
-    background-image: url('robo3.png'); /* Usando a imagem local */
+    background-image: url('gato.png'); /* Usando a nova imagem local */
     background-size: contain; /* Ajusta a imagem para caber na div */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     background-position: center top; /* Centraliza a imagem na parte superior */
