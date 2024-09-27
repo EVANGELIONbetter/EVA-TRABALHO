@@ -1,27 +1,12 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+body {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh; /* Altura total da viewport */
+    margin: 0;
 }
 
-nav {
-    margin-bottom: 20px;
-}
-
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #333;
-}
-
-.container {
-    text-align: center;
-}
-
-.imagem-centralizada {
-    max-width: 100%; /* Ajuste o tamanho conforme necessário */
+img {
+    max-width: 80%; /* Ajusta o tamanho da imagem */
     height: auto;
 }
